@@ -1,0 +1,116 @@
+body {
+  background-color: #fef6e4;
+  font-family: 'Roboto Condensed', Arial, sans-serif;
+  color: #001858;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Cinzel Decorative', serif;
+  color: #f582ae;
+}
+
+h2 {
+  color: #8bd3dd;
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e0fbfc;
+  margin: 8px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.centre {
+  display: block;
+  margin: 20px auto;
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.centre:hover {
+  transform: scale(1.1);
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+a.email {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background-color: #f582ae;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+a.email:hover {
+  background-color: #001858;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+footer {
+  background: #001858;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
