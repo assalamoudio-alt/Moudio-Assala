@@ -21,7 +21,6 @@
         L'informatique est une science qui me passionne beaucoup, d'où mon choix de filière.
       </p>
     </section>
-
     <section id="hobbies">
       <h2>Mes hobbies</h2>
       <ul>
@@ -31,12 +30,10 @@
         <li>Les jeux vidéos</li>
       </ul>
     </section>
-
     <section id="photo">
       <h2>Voici une brève photo de moi</h2>
       <img src="images/photo.jpg" alt="Photo de Moudio Assala Serge" class="centre">
     </section>
-
     <section id="info">
       <h2>Tableau d'informations</h2>
       <table id="infoTable">
@@ -50,11 +47,9 @@
         </tr>
       </table>
     </section>
-
     <section id="contact">
       <a href="mailto:assalamoudio@gmail.com" class="email">Envoyez-moi un email</a>
     </section>
-
     <section id="actions">
       <button id="btnFond">Changer la couleur du fond</button>
       <button id="btnLigne">Ajouter une ligne au tableau</button>
